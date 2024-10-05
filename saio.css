@@ -1,0 +1,181 @@
+/**
+ * @name Purple and Blue | Checkered Style
+ * @version 8.0
+ * @description A simple but highly customizable theme, now sugar free!
+ * @author Spectra, Edited by Saio
+ * @invite PZdnCVD
+ * @source https://github.com/xcruxiex/themes
+ * @website https://betterdiscord.app/theme/Neutron
+ * @BDEditor Neutron
+*/
+
+@import url('https://xcruxiex.github.io/themes/themes-cores/neutron8.css');
+@import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css');
+
+:root {
+  --backgroundImage: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/295901f3-50b4-40ec-a803-3108e1837b4a/dg0c7j3-cfdfdd9a-024e-421c-9c8f-0ac59006aa3a.jpg/v1/fit/w_828,h_640,q_70,strp/eeveelutions_unite__by_mabocorescant_dg0c7j3-414w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTkwIiwicGF0aCI6IlwvZlwvMjk1OTAxZjMtNTBiNC00MGVjLWE4MDMtMzEwOGUxODM3YjRhXC9kZzBjN2ozLWNmZGZkZDlhLTAyNGUtNDIxYy05YzhmLTBhYzU5MDA2YWEzYS5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.1rNRa1RWgGlXr18OCfzugFfCjinh8B6MfpLOEth7eSA');
+  --backgroundColor: #281050;
+  --backgroundSize: cover;
+  --backgroundPosition: top center;
+  --backgroundRepeat: no-repeat;
+  --backgroundBlur: 2px;
+  --backgroundOpacity: 0.2;
+  --homeImage: url('https://assets.pokemon.com/assets/cms2/img/pokedex/full//133.png');
+  --homeImageSize: cover;
+  --themeColor1: #C080FF;
+  --themeColor2: #8080FF;
+  --backgroundCode: rgb(109,78,48,0.75);
+  --backgroundName: rgb(192,144,88,0.75);
+  --columns: 2;
+  --guildgap: 3;
+  --aligndms: 1;
+}
+
+/* Any custom CSS below here */
+
+.numberBadge_df8943 {
+  padding-bottom: 3px;
+  padding-left: 2px;
+}
+
+.liveShapeRound_ec1c2d {
+  background: var(--red-400);
+  border-left: 2px solid var(--red-400);
+  border-radius: 10px;
+}
+
+.hangStatusIcon_d80634 {
+  background: #6060C0C0;
+  border: 1px solid #8080FF;
+  border-radius: 35%;
+}
+
+.icon_d80634 {
+  color: #FFC080
+}
+
+.message_d5deea {
+  border-right: 4px solid #8080FF;
+  border-top: 1px solid #8080FF;
+  border-radius: 10px;
+}
+
+.mentioned_d5deea {
+  border: 2px solid #FFC080;
+  border-radius: 10px;
+  background: #FFC08040;
+}
+
+.messagelogger-deleted .message_d5deea{
+  border-right: 4px solid var(--red-400);
+  border-top: 1px solid var(--red-400);
+  background: #FF808040;
+}
+.subtitleContainer_a7d72e {
+  background: #C080FF80;
+  border-radius: 10px;
+}
+
+.container_c64476 {
+  background: #6060C0C0;
+  border-left: 5px solid #FF8080;
+  border-right: 2px solid #FF8080;
+  border-radius: 15px;
+}
+
+.member_a31c43 {
+  background: #6060C060;
+  border-left: 5px solid #80FFFF;
+  border-right: 2px solid #80FFFF;
+  border-radius: 15px;
+}
+
+.wrapper_adcaac {
+  background: #6060C040;
+  border-left: 5px solid #80FFC0;
+  border-right: 2px solid #80FFC0;
+  border-radius: 10px;
+}
+
+.clickable_a08117 {
+  border-radius: 10px;
+  border-bottom: 2px solid #C080FF;
+  border-right: 1px solid #C080FF;
+  background: #6060C040;
+}
+
+.collapsed_a08117 {
+  border-radius: 10px;
+  border-top: 2px solid #8080FF;
+  background: #6060C040;
+}
+
+.container_b2ca13 {
+  border-left: 5px solid #8080FF;
+  border-right: 2px solid #8080FF;
+  border-radius: 10px;
+}
+
+.container_ee69e0 {
+  border-left: 5px solid #C080FF;
+  border-right: 2px solid #C080FF;
+  border-radius: 10px;
+}
+
+.typeDefault_d8bfb3 {
+  border-radius: 10px;
+  background: #60408080;
+  border-bottom: 1px solid #C080FF;
+}
+
+.typeVoice_d8bfb3 {
+  border-radius: 10px;
+  background: #60408080;
+  border-bottom: 1px solid #FFC080;
+}
+
+.modeConnected_d8bfb3 {
+  border-radius: 10px;
+  border: 2px solid #80FF80;
+}
+
+.modeSelected_d8bfb3 {
+  border-radius: 10px;
+  border-top: 2px solid #FF80FF;
+  border-right: 2px solid #FF80FF;
+  border-bottom: 2px solid #FF80FF;
+}
+
+.draggable_ac3629 {
+  border-radius: 10px 10px 10px 10px;
+  background: #80604080;
+  border-bottom: 1px solid #FFC080;
+  border-right: 1px solid #FFC080;
+}
+
+.avatarSpeaking_d80634 {
+  box-shadow: inset 0 0 0 2px #40C040, inset 0 0 0 3px var(--background-secondary);
+}
+
+.channelBottomBarArea_a7d72e {
+  margin-bottom: 8px;
+}
+
+.channelTextArea_a7d72e {
+  background: #402080;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border: 2px solid #C080FF;
+}
+
+.textArea_d0696b {
+  background-color: #603090;
+  resize: none;
+  border: 2px solid #8080FF;
+  border-radius: 10px;
+}
+
+.fontSize18Padding_d0696b {
+  padding-left: 5px;
+  padding-right: 5px;
+}
